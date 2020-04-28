@@ -1,0 +1,301 @@
+/* mobile */
+.navbar-brand {
+    height: 15px;
+}
+.navbar-brand img {
+    margin-top: -35px;
+    width: 102px;
+    height: 21px;
+}
+.jumbotron {
+    background-image: url(img/jumbotron.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+.tom-jumbotron {
+    text-transform: uppercase;
+}
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+    }
+    .jumbotron::after {
+    content:'';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(0,0,0,1),rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+    }
+    .jumbotron .display-4{
+        font-family: Segoe UI;
+        color: white;
+        font-size: 25px;
+        font-weight: 250;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    }
+    .jumbotron .display-4 span {
+        font-family: 'Quicksand', sans-serif;
+    }
+    .carousel-bg{
+        margin-top: 10px;
+        background-color: rgba(171, 162, 162, 0.5);
+        box-shadow: 0 3px 20px rgba(0,0,0, 0.5);
+        border-radius: 10px;
+    }
+    .carousel{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .carousel-item img{
+        width: 180px;
+        height: 200px;
+    }
+    h5 {
+        color: black;
+    }
+/* Panel */
+.info {
+    margin-top: 180px;
+}
+.info h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.container .info hr {
+margin-top: auto;
+height: 2px;
+width: 50%;
+border-radius: 50px;
+}
+.panel {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.panel img {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+.panel p {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 600;
+}
+/* info-kontak */
+.color-bg {
+    background-color: black;
+    margin-top: 30px;
+  }
+  .info-kontak {
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  .konten h4 {
+      color: white;
+      margin-top: 20px;
+      text-align: center;
+  }
+  .konten hr {
+      margin-top: auto;
+      border-radius: 50px;
+      height: 2px;
+  }
+  .btn-kontak {
+      padding: 20px;
+      margin-bottom: 60px;
+      margin-top: 30px;
+  }
+  .btn-kontak a{
+      font-weight: bold;
+  }
+  .tom-wa img {
+      margin-top: -6px;
+      margin-right: 18px;
+  }
+  .tom-line img {
+     margin-left: 20;
+     margin-right: 15px;
+     margin-top: -10px;
+     margin-bottom: -10px;
+ }
+ .tom-shopee img {
+     margin-top: -6px;
+ }
+ .tom-wa-cs img{
+     margin-right: 15px;
+ }
+ .btn-cs {
+     padding: 20px;
+      margin-bottom: 60px;
+      margin-top: 30px;
+ }
+ .btn-cs a{
+     font-size: 12px;
+     font-weight: 400;
+ }
+ .tom-wa-cs img{
+     margin-right: 10px;
+ }
+ .tom-mail img {
+     margin-top: -6px;
+     margin-bottom: -6px;
+ }
+ /* Footer */
+ .footer{
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+}
+/* dekstop */
+@media(min-width : 992px){
+/* Navbar */
+.nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;;
+}
+.jumbotron {
+    background-image: url(img/jumbotron.jpg);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    position: relative;
+}
+.tom-jumbotron {
+    text-transform: uppercase;
+    border-radius: 100px;
+}
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+    }
+    .jumbotron::after {
+    content:'';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(0,0,0,1),rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+    }
+    .jumbotron .display-4{
+        font-family: Segoe UI;
+        color: white;
+        font-size: 40px;
+        font-weight: 250;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+        float: right;
+        margin-top: 100px;
+    }
+    .jumbotron .display-4 span {
+        font-family: 'Quicksand', sans-serif;
+    }
+    .carousel-bg{
+        margin-top: 10px;
+        background-color: rgba(171, 162, 162, 0.50);
+        border-radius: 10px;
+    }
+    .carousel{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .carousel-item img{
+        width: 340px;
+        height: 370px;
+    }
+    .carousel-item h5 {
+        color: white;
+    }
+/* panel */
+.info{
+    margin-top: 30px;
+}
+    .info h3 {
+        text-align: center;
+        color: black;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+ .container .info hr {
+    margin-top: auto;
+    height: 3px;
+    border-radius: 50px;
+ }
+ .panel {
+     margin-top: 100px;
+ }
+ .panel img {
+     border: 5px solid black;
+     border-radius: 10px;
+     padding: 10px;
+ }
+ .panel p {
+     margin-top: 30px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: black;
+     font-weight: 500;
+ }
+ /* info kontak */
+ .color-bg {
+   background-color: black;
+   margin-top: 70px;
+ }
+ .info-kontak {
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+ .konten h4 {
+     color: white;
+     margin-top: 20px;
+     text-align: center;
+ }
+ .konten hr {
+     margin-top: auto;
+     border-radius: 50px;
+     height: 3px;
+ }
+ .btn-kontak {
+     padding: 20px;
+     margin-bottom: 30px;
+     margin-top: 30px;
+ }
+ .btn-kontak a{
+     font-weight: bold;
+ }
+ .tom-wa img {
+     margin-top: -6px;
+     margin-right: 20px;
+ }
+ .tom-line img {
+    margin-left: 20;
+    margin-right: 15px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.tom-shopee img {
+    margin-top: -6px;
+}
+.tom-wa-cs img{
+    margin-right: 15px;
+}
+.btn-cs {
+    padding: 20px;
+     margin-bottom: 30px;
+     margin-top: 30px;
+}
+.btn-cs a{
+    font-size: 12px;
+}
+/* footer */
+.footer{
+    background-color: black;
+}
+}
