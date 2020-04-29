@@ -53,8 +53,23 @@
     .carousel-item img{
         width: 180px;
         height: 200px;
+        border-radius: 10px;
     }
-    h5 {
+    .carousel-item h6{
+        margin-top: 2px;
+        color: grey;
+        margin-bottom: -5px;
+        text-decoration: line-through red;
+    }
+    .promo h4{
+        font-weight: bold;
+        color: black;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .carousel-item h5 {
+        margin-top: 10px;
+        font-weight: bold;
         color: black;
     }
 /* Panel */
@@ -210,10 +225,26 @@ border-radius: 50px;
     .carousel-item img{
         width: 340px;
         height: 370px;
+        border-radius: 20px;
+    }
+    .carousel-item h6{
+        margin-top: 2px;
+        color: black;
+        margin-bottom: -5px;
+        text-decoration: line-through red;
+    }
+    .promo h4{
+        font-weight: bold;
+        color: black;
+        font-size: 20px;
+        margin-bottom: 5px;
     }
     .carousel-item h5 {
-        color: white;
+        margin-top: 10px;
+        font-weight: bold;
+        color: black;
     }
+    
 /* panel */
 .info{
     margin-top: 30px;
@@ -221,6 +252,7 @@ border-radius: 50px;
     .info h3 {
         text-align: center;
         color: black;
+        font-size: 24px;
         font-family: 'Quicksand', sans-serif;
         font-weight: 600;
     }
